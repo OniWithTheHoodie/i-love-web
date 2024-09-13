@@ -1,0 +1,15 @@
+:root {
+    --background-color-bg: #006b83;
+    --text-color: #adafdc;
+}
+
+@font-face {
+    font-family: 'Rubik Moonrocks';
+    src: url('/fonts/RubikMoonrocks-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+:root, html, body {
+    background-color: var(--background-color-bg);
+}
