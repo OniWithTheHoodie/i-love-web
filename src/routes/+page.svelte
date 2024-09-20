@@ -58,12 +58,46 @@
         blinde mensen waar hij mee gewerkt heeft vragen zich af waarom er zoveel navigatie links die onnodig veel dingen lezen. Terwijl zij simpel gebruik willen maken van de content die zij nodig hebben.
     </p>
     <p>Vasilis vind dat de zieke dingen die hij heeft gemaakt wij dat ook kunnen zolang je het maar wilt en bereid bent nieuwe of oude technieken mee gaat experimenten en er zieken dingen mee maakt.</p>
+
+    <h1>19-9-2024(Squad Page)</h1>
+    <p>Voor dit project heb ik samen met Eva, Rukiya, Akiko en Zainab de squadpage gemaakt.
+        Voor de squad page hebben wij een design gemaakt en ook inspiraties die wij hebben opgehaald. van bronnen zoals pintrest, dribble en aaawards.
+    </p>
+    <img src="images/squadpage/figmaDesign.png" alt="">
+    <img src="images/squadpage/figmaDesign2.png" alt="">
+    <img src="images/squadpage/figmaInspiratie.png" alt="">
+    <p>vervolgens hebben wij een taakverdeling gedaan via github waar voor de samenwerking we tijdens school bij elkaar zaten
+        en als we thuis waren hielden wij contact via teams
+    </p>
+    <img src="images/squadpage/projectboard.png" alt="">
+    <p>En om ervoor te zorgen dat we geen conflicten hadden als het ging om code. deed ik de pull request
+        en checkte ik voor conflicten en wij hadden als afspraak dat we aparte branches aanmaakte die vervolgens naar de main konden.
+    </p>
+    <img src="images/squadpage/pullrequest1.png" alt="">
+    <img src="images/squadpage/pullrequest2.png" alt="">
+    <p>
+    Het eind resultaat van de squadpage 
+    </p>
+    <video autoplay loop muted>
+        <source src="videos/squadpage/squadpage.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 </main>
 
 <style>
+    main {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
     h1 {
         font-family: 'Rubik Moonrocks';
         color: var(--text-color);
+    }
+
+    img {
+        width: 600px;
+        height: 600px;
     }
 </style>
 
