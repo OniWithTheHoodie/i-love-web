@@ -61,20 +61,24 @@
 
     <h1>19-9-2024(Squad Page)</h1>
     <p>Voor dit project heb ik samen met Eva, Rukiya, Akiko en Zainab de squadpage gemaakt.
-        Voor de squad page hebben wij een design gemaakt en ook inspiraties die wij hebben opgehaald. van bronnen zoals pintrest, dribble en aaawards.
+        Voor de squad page hebben wij een design gemaakt en ook inspiraties die wij hebben opgehaald. van bronnen zoals pintrest, dribble en aaawards. Al deze ideeën hebben
+        hebben vervolgens samen gezet en ontworpen in Figma. 
     </p>
     <img src="images/squadpage/figmaDesign.png" alt="">
     <img src="images/squadpage/figmaDesign2.png" alt="">
     <img src="images/squadpage/figmaInspiratie.png" alt="">
     <p>vervolgens hebben wij een taakverdeling gedaan via github waar voor de samenwerking we tijdens school bij elkaar zaten
-        en als we thuis waren hielden wij contact via teams
+        en als we thuis waren hielden wij contact via teams. We hebben daarbij de MOSCOW methode toegepast en gekeken naar wat belangerijk is tot minder belangerijk.
+        Waar wij dingen zoals de team canvas, ontwerp, kampvuur sessie, code conventies etc. in de projectboard hebben geplaatst. Ook voor specifieke taken kreeg of 1 een assignee of meerdere leden.
+        issues die werden ingeschoten werden ook meegenomen in de project board en zoals alle taken als iets af was werd verschoven van to-do naar in progress, in review en done.
     </p>
     <img src="images/squadpage/projectboard.png" alt="">
-    <p>En om ervoor te zorgen dat we geen conflicten hadden als het ging om code. deed ik de pull request
-        en checkte ik voor conflicten en wij hadden als afspraak dat we aparte branches aanmaakte die vervolgens naar de main konden.
+    <p>En om ervoor te zorgen dat we geen conflicten hadden als het ging om code. deed ik alle pull requesten
+        en controleerde ik voor conflicten en wij hadden als afspraak dat we aparte branches aanmaakte die ik vervolgens met de main merge.
     </p>
     <img src="images/squadpage/pullrequest1.png" alt="">
     <img src="images/squadpage/pullrequest2.png" alt="">
+    <img src="images/squadpage/branches.png" alt="">
     <p>
     Het eind resultaat van de squadpage 
     </p>
