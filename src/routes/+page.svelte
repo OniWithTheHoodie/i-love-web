@@ -82,6 +82,15 @@
         <source src="videos/squadpage/squadpage.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+
+    <section>
+        <h1>19-9-2024(Profile card)</h1>
+        <p>Voor de profile card heb ik </p>
+        <video autoplay loop muted>
+            <source src="videos/profilecard/profilecard.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
 </main>
 
 <style>
