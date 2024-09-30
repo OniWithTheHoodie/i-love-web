@@ -71,9 +71,9 @@
             hebben vervolgens samen gezet en ontworpen in Figma. 
         </p>
         <figure>
-            <img src="images/squadpage/figmaDesign.png" alt="">
-            <img src="images/squadpage/figmaDesign2.png" alt="">
-            <img src="images/squadpage/figmaInspiratie.png" alt="">
+            <img src="images/sprint13images/figmaDesign.png" alt="">
+            <img src="images/sprint13images/figmaDesign2.png" alt="">
+            <img src="images/sprint13images/figmaInspiratie.png" alt="">
         </figure>
             <a href="https://www.figma.com/design/R4hylHYnKXGfit6t7KFIS8/your-tribe-for-life-squad-page?node-id=0-1&node-type=canvas&t=3jQMnHQBfk89bHcY-0">link figma</a>
 
@@ -83,7 +83,7 @@
             issues die werden ingeschoten werden ook meegenomen in de project board en zoals alle taken als iets af was werd verschoven van to-do naar in progress, in review en done.
         </p>
         <figure>
-            <img src="images/squadpage/projectboard.png" alt="">
+            <img src="images/sprint13images/projectboard.png" alt="">
         </figure>
         <a href="https://github.com/users/OniWithTheHoodie/projects/12/views/1">link projectboard</a>
     </article>
@@ -94,12 +94,12 @@
         </p>
         <a href="https://github.com/users/OniWithTheHoodie/projects/12">Link projectboard</a>
         <figure>
-            <img src="images/squadpage/pullrequest1.png" alt="">
-            <img src="images/squadpage/pullrequest2.png" alt="">
+            <img src="images/sprint13images/pullrequest1.png" alt="">
+            <img src="images/sprint13images/pullrequest2.png" alt="">
         </figure>
         <a href="https://github.com/OniWithTheHoodie/your-tribe-for-life-squad-page/pulls">link pull request</a>
         <figure>
-            <img src="images/squadpage/branches.png" alt="">
+            <img src="images/sprint13images/branches.png" alt="">
         </figure>
         <p>
         Het eind resultaat van de squadpage 
