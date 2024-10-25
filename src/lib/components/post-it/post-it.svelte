@@ -1,10 +1,37 @@
-<article class="post">
-    <a href="/sprint13" class="post__link">
-        <h2>sprint 13</h2>
-    </a>
-</article>
+<section> 
+    <section class="container">
+        <h1>Digital gardning</h1>
+        <article>
+            <article class="post">
+                <a href="/sprint13" class="post__link">
+                    <h2>sprint 13</h2>
+                </a>
+            </article>
+            <article class="post">
+                <a href="/sprint14" class="post__link">
+                    <h2>sprint 14</h2>
+                </a>
+            </article>
+        </article>
+    </section>
+</section>  
 
 <style>
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: inline-block;
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
     .post {
         display: flex;
         justify-content: center;

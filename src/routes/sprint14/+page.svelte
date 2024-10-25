@@ -1,5 +1,5 @@
 <main>
-    <h1>Digital gardning</h1>
+    <h1>print 14</h1>
     <article>
         <h3>23-9-2024 Mediahuis</h3>
         <p>Heb te horen gekregen dat de verdeling voor de opdrachtgevers bekend zijn gemaakt. Ik zit samen met

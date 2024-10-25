@@ -1,5 +1,5 @@
 <main>
-    <h1>Digital gardning</h1>
+    <h1>Sprint 13</h1>
     <article>
         <h3>2-9-2024</h3>
         <ol>
