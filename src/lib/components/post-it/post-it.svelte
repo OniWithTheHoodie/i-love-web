@@ -20,26 +20,56 @@
     section {
         display: flex;
         flex-direction: column;
+        gap: 1em;
+        @media only screen and (min-width: 600px) and (max-width: 980px){
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+        }
+
+        @media only screen and (min-width: 982px) {
+        display: flex;
+        flex-direction: column;
+        }
     }
 
     .container {
+        @media only screen and (min-width: 600px) and (max-width: 980px){
+            display: inline-block;
+            padding: 10px;
+        }
+
+        @media only screen and (min-width: 960px) {
         display: inline-block;
+        }
     }
 
     article {
+        width: 400px;
+
+        @media only screen and (min-width: 600px) and (max-width: 980px){
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            width: 700px;
+        }
+
+        @media only screen and (min-width: 960px) {
         display: flex;
         flex-direction: row;
         gap: 1em;
+        width: 700px;
+        }
     }
 
     .post {
         display: flex;
         justify-content: center;
-        width: 300px;
         height: 300px;
         border: 2px solid black;
         box-shadow: black 10px 10px;
         position: relative;
+        margin-bottom: 30px;
     }
 
     .post__link:before {
