@@ -1,6 +1,7 @@
 :root {
     --background-color-bg: #006b83;
     --text-color: #adafdc;
+    --font-familiy: "DecovarAlpha-VF";
 }
 
 @font-face {
@@ -9,6 +10,15 @@
     font-weight: normal;
     font-style: normal;
 } 
+
+@font-face {
+    font-family: 'DecovarAlpha-VF';
+    src: url('/fonts/DecovarAlpha-VF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:     "BLDA" 114.22, "TRMD" 3.3, "TRMC" 422.71, "SKLD" 249.4, "TRML" 0, "SKLA" 0, "TRMF" 0, "TRMK" 0, "BLDB" 516.3, "WMX2" 382.85, "TRMB" 0, "TRMA" 0, "SKLB" 726.01, "TRMG" 901.05, "TRME" 0;
+} 
+
 
 :root, html, body {
     background-color: var(--background-color-bg);

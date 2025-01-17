@@ -12,6 +12,13 @@
                     <h2>sprint 14</h2>
                 </a>
             </article>
+            <article class="post">
+                <p class="post__link">
+                    <span class="decovar-alpha-regular24-custom-instance">
+                        This is my custom instance
+                    </span>
+                </p>
+            </article>
         </article>
     </section>
 </section>  
@@ -89,5 +96,11 @@
     h2 {
         color: black;
         position: relative;
+        font-family: var(--font-familiy);
     }
+
+    .decovar-alpha-regular24-custom-instance {
+        font-family: var(--font-familiy);
+    }
+
 </style>
