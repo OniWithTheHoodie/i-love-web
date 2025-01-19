@@ -1,106 +1,188 @@
-<section> 
-    <section class="container">
-        <h1>Digital gardning</h1>
-        <article>
-            <article class="post">
-                <a href="/sprint13" class="post__link">
-                    <h2>sprint 13</h2>
-                </a>
-            </article>
-            <article class="post">
-                <a href="/sprint14" class="post__link">
-                    <h2>sprint 14</h2>
-                </a>
-            </article>
-            <article class="post">
-                <p class="post__link">
-                    <span class="decovar-alpha-regular24-custom-instance">
-                        This is my custom instance
-                    </span>
-                </p>
-            </article>
-        </article>
-    </section>
-</section>  
+<script>
+</script>
+
+<article class="stack">
+	<h1>Digital Gardening</h1>
+	<p>Welcome to my digital Gardening.</p>
+	<ul class="stack-cards">
+		<li class="stack-cards__item">
+			<article class="stack-cards__article">
+				<h2>Sprint 13</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<a href="/sprint13">lees meer</a>
+			</article>
+			<figure>
+				<img src="images/code.jpg" width="100" alt="right" />
+			</figure>
+		</li>
+
+		<li class="stack-cards__item">
+			<article class="stack-cards__article">
+				<h2>Sprint 14</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<a href="/sprint14">lees meer</a>
+			</article>
+			<figure>
+				<img src="images/code.jpg" width="100" alt="right" />
+			</figure>
+		</li>
+
+		<li class="stack-cards__item">
+			<article class="stack-cards__article">
+				<h2>Sprint 15</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<a href="/sprint15">lees meer</a>
+			</article>
+			<figure>
+				<img src="images/code.jpg" width="100" alt="right" />
+			</figure>
+		</li>
+
+		<li class="stack-cards__item">
+			<article class="stack-cards__article">
+				<h2>Sprint 16</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<a href="/sprint16">lees meer</a>
+			</article>
+			<figure>
+				<img src="images/code.jpg" width="100" alt="right" />
+			</figure>
+		</li>
+
+		<li class="stack-cards__item">
+			<article class="stack-cards__article">
+				<h2>Sprint 17</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<a href="/sprint17">lees meer</a>
+			</article>
+			<figure>
+				<img src="images/code.jpg" width="100" alt="right" />
+			</figure>
+		</li>
+
+		<li class="stack-cards__item">
+			<article class="stack-cards__article">
+				<h2>Sprint 18</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<a href="/sprint18">lees meer</a>
+			</article>
+			<figure>
+				<img src="images/code.jpg" width="100" alt="right" />
+			</figure>
+		</li>
+
+		<li class="stack-cards__item">
+			<article class="stack-cards__article">
+				<h2>We love web</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<a href="/WeLoveWeb">lees meer</a>
+			</article>
+			<figure>
+				<img src="images/code.jpg" width="100" alt="right" />
+			</figure>
+		</li>
+	</ul>
+</article>
 
 <style>
-    section {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        @media only screen and (min-width: 600px) and (max-width: 980px){
-            display: flex;
-            flex-direction: row;
-            gap: 1em;
+	.stack {
+		/* @media screen and (min-width: 768px) {
+			display: flex;
+			flex-direction: column;
+			align-items: center;	
+		} */
+	}
+
+	.stack-cards {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		height: 400vh; /* Ensure enough height for scrolling */
+
+	}
+
+	.stack-cards__item {
+		background-color: white; /* Background color for visibility */
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+		border-radius: 8px; /* Rounded corners */
+		margin-bottom: 20px; /* Add some space between cards */
+		width: 100%;
+		height: 300px;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		transition: transform 0.3s ease-out;
+		display: flex;
+		flex-direction: row;
+
+		& .stack-cards__article {
+			width: 100%;
+			max-height: 200px;
+            padding: 20px;
+		}
+
+		& .stack-cards__article > h2 {
+			font-size: 18px;
+            height: 30px;
+		}
+
+		& .stack-cards__article > p {
+			height: 120px;
+			font-size: 14px;
+		}
+
+		& .stack-cards__article > a {
+			height: 100px;
+			font-size: 14px;
+			width: 24px;
+			height: 24px;
+			border-radius: 5px;
+			background: var(--secondary-color);
+			color: #ffffff;
+			padding: 10px;
+            text-decoration: none;
+		}
+
+		& a:hover {
+			background-color: var(--tertiary-color);
+		}
+
+		& figure {
+			width: 100%;
+			height: 300px;
+            object-fit: cover;
+
+		}
+
+        & figure > img {
+            height: 100%;
+			width: 100%;
+            border-radius: 0 5px 5px 0;
         }
+	}
 
-        @media only screen and (min-width: 982px) {
-        display: flex;
-        flex-direction: column;
-        }
-    }
+	.stack-cards__item:nth-child(1) {
+		z-index: 1;
+	}
 
-    .container {
-        @media only screen and (min-width: 600px) and (max-width: 980px){
-            display: inline-block;
-            padding: 10px;
-        }
+	.stack-cards__item:nth-child(2) {
+		z-index: 2;
+	}
 
-        @media only screen and (min-width: 960px) {
-        display: inline-block;
-        }
-    }
+	.stack-cards__item:nth-child(3) {
+		z-index: 3;
+	}
 
-    article {
-        width: 400px;
+	.stack-cards__item:nth-child(4) {
+		z-index: 4;
+	}
 
-        @media only screen and (min-width: 600px) and (max-width: 980px){
-            display: flex;
-            flex-direction: row;
-            gap: 1em;
-            width: 700px;
-        }
+	.stack-cards__item:nth-child(5) {
+		z-index: 5;
+	}
 
-        @media only screen and (min-width: 960px) {
-        display: flex;
-        flex-direction: row;
-        gap: 1em;
-        width: 700px;
-        }
-    }
-
-    .post {
-        display: flex;
-        justify-content: center;
-        height: 300px;
-        border: 2px solid black;
-        box-shadow: black 10px 10px;
-        position: relative;
-        margin-bottom: 30px;
-    }
-
-    .post__link:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: transparent;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    h2 {
-        color: black;
-        position: relative;
-        font-family: var(--font-familiy);
-    }
-
-    .decovar-alpha-regular24-custom-instance {
-        font-family: var(--font-familiy);
-    }
-
+	.stack-cards__item:nth-child(6) {
+		z-index: 6;
+	}
 </style>

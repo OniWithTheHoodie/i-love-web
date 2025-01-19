@@ -1,7 +1,11 @@
 :root {
-    --background-color-bg: #006b83;
-    --text-color: #adafdc;
+    --primary-color: #FFDAB3;
+    --secondary-color: #C8AAAA;
+    --tertiary-color: #9F8383;
+    --neutral-color: #574964;
+    --text-color: #000000;
     --font-familiy: "DecovarAlpha-VF";
+    --space-sm: 0.75em;
 }
 
 @font-face {
@@ -20,8 +24,9 @@
 } 
 
 
-:root, html, body {
-    background-color: var(--background-color-bg);
+body {
+    /* background-color: var(--background-color-bg); */
+    background-color: #FFDAB3;
 }
 
 * {
@@ -47,5 +52,5 @@ main {
 
 h1 {
     font-family: 'Rubik Moonrocks';
-    color: var(--text-color);
+    color:  var(--text-color);
 }
