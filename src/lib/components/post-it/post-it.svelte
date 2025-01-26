@@ -8,7 +8,7 @@
 		<li class="stack-cards__item">
 			<article class="stack-cards__article">
 				<h2>Sprint 13</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<p>Your tribe for life</p>
 				<a href="/sprint13">lees meer</a>
 			</article>
 			<figure>
@@ -19,7 +19,7 @@
 		<li class="stack-cards__item">
 			<article class="stack-cards__article">
 				<h2>Sprint 14</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<p>Lose your head</p>
 				<a href="/sprint14">lees meer</a>
 			</article>
 			<figure>
@@ -30,7 +30,7 @@
 		<li class="stack-cards__item">
 			<article class="stack-cards__article">
 				<h2>Sprint 15</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<p>Choices, Choices</p>
 				<a href="/sprint15">lees meer</a>
 			</article>
 			<figure>
@@ -41,7 +41,7 @@
 		<li class="stack-cards__item">
 			<article class="stack-cards__article">
 				<h2>Sprint 16</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<p>Don't repeat yourself</p>
 				<a href="/sprint16">lees meer</a>
 			</article>
 			<figure>
@@ -52,7 +52,7 @@
 		<li class="stack-cards__item">
 			<article class="stack-cards__article">
 				<h2>Sprint 17</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<p>User needs</p>
 				<a href="/sprint17">lees meer</a>
 			</article>
 			<figure>
@@ -63,7 +63,7 @@
 		<li class="stack-cards__item">
 			<article class="stack-cards__article">
 				<h2>Sprint 18</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+				<p>Release candidate</p>
 				<a href="/sprint18">lees meer</a>
 			</article>
 			<figure>
