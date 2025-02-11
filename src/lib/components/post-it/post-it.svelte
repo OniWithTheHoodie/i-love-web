@@ -103,13 +103,11 @@
 		padding: 0;
 		margin: 0;
 		position: relative;
-		height: 400vh; /* Ensure enough height for scrolling */
-		
-		@media (min-width: 768px) {
+		height: 300vh; /* Ensure enough height for scrolling */
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-		}
+
 	}
 
 	.stack-cards__item {
@@ -117,7 +115,7 @@
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
 		border-radius: 8px; /* Rounded corners */
 		margin-bottom: 20px; /* Add some space between cards */
-		width: 100%;
+		width: 300px;
 		height: 190px;
 		position: sticky;
 		top: 0;
