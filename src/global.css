@@ -6,6 +6,9 @@
     --text-color: #000000;
     --font-familiy: "DecovarAlpha-VF";
     --space-sm: 0.75em;
+    --M-font-size: 16px;
+    --T-font-size: 18px;
+    --D-font-size: 20px;
 }
 
 @font-face {
@@ -42,7 +45,7 @@ main {
 
     @media only screen and (min-width: 960px) {
     margin: auto;
-    width: 50%;
+    /* width: 50%; */
     height: 100vh;
     padding: 10px;
     font-size: 24px;

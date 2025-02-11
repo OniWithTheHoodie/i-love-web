@@ -93,13 +93,23 @@
 		} */
 	}
 
+	article > h1,
+	p {
+		margin-bottom: 0.5em;
+	}
+
 	.stack-cards {
 		list-style: none;
 		padding: 0;
 		margin: 0;
 		position: relative;
 		height: 400vh; /* Ensure enough height for scrolling */
-
+		
+		@media (min-width: 768px) {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
 	}
 
 	.stack-cards__item {
@@ -108,58 +118,79 @@
 		border-radius: 8px; /* Rounded corners */
 		margin-bottom: 20px; /* Add some space between cards */
 		width: 100%;
-		height: 300px;
+		height: 190px;
 		position: sticky;
 		top: 0;
 		z-index: 1;
 		transition: transform 0.3s ease-out;
 		display: flex;
 		flex-direction: row;
+		container-type: inline-size;
+
+		@media (min-width: 768px) {
+			width: 500px;
+		}
 
 		& .stack-cards__article {
 			width: 100%;
 			max-height: 200px;
-            padding: 20px;
+			padding: 20px;
 		}
 
 		& .stack-cards__article > h2 {
 			font-size: 18px;
-            height: 30px;
+			height: 30px;
 		}
 
 		& .stack-cards__article > p {
-			height: 120px;
-			font-size: 14px;
+			height: 65px;
+			font-size: var(--M-font-size);
+			
+			@container (min-width: 700px) {
+				font-size: var(--T--font-size);	
+			}
+
+			@container (min-width: 1000px) {
+				font-size: var(--D-font-size);
+			}
 		}
 
 		& .stack-cards__article > a {
 			height: 100px;
 			font-size: 14px;
-			width: 24px;
+			width: auto;
 			height: 24px;
 			border-radius: 5px;
 			background: var(--secondary-color);
-			color: #ffffff;
 			padding: 10px;
-            text-decoration: none;
+			color: var(--text-color);
+			text-decoration: none;
+			box-shadow: 2px 2px;
+			transition:
+				transform 1s ease,
+				box-shadow 0.1s ease;
 		}
 
 		& a:hover {
 			background-color: var(--tertiary-color);
 		}
 
-		& figure {
-			width: 100%;
-			height: 300px;
-            object-fit: cover;
-
+		& a:active {
+			transform: scale(0.95);
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 		}
 
-        & figure > img {
-            height: 100%;
+		& figure {
 			width: 100%;
-            border-radius: 0 5px 5px 0;
-        }
+			height: 190px;
+			object-fit: cover;
+		}
+
+		& figure > img {
+			height: 100%;
+			width: 100%;
+			border-radius: 0 5px 5px 0;
+		}
 	}
 
 	.stack-cards__item:nth-child(1) {
