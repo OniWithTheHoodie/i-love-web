@@ -1,11 +1,11 @@
 <script>
 </script>
 
-<div class="cards-wrapper">
-	<section class="cards-section">
+<div class="cards__wrapper">
+	<section class="cards__section">
 		<h2>Post-its</h2>
-		<ul class="cards-container">
-			<li class="card">
+		<ul class="cards__container">
+			<li class="cards__structure">
 				<h2>Sprint 13 - Your tribe for life</h2>
 				<p>
 					Hier werk ik met een aantal klasgenoten om samen een squadpage te maken. Voor de squadpage
@@ -13,7 +13,7 @@
 				</p>
 				<a href="/sprint13">lees meer</a>
 			</li>
-			<li class="card">
+			<li class="cards__structure">
 				<h2>Sprint 14 - Lose your head</h2>
 				<p>
 					Dit gaat over onze nieuwe opdracht die wij hebben gekregen waar wij werken met een echte
@@ -21,7 +21,7 @@
 				</p>
 				<a href="/sprint14">lees meer</a>
 			</li>
-			<li class="card">
+			<li class="cards__structure">
 				<h2>Sprint 15 - Choices, Choices</h2>
 				<p>
 					Experimenteren met verschillende tech stacks. Lose your head client case opnieuw maken
@@ -29,7 +29,7 @@
 				</p>
 				<a href="/sprint15">lees meer</a>
 			</li>
-			<li class="card">
+			<li class="cards__structure">
 				<h2>Sprint 16 - Don't repeat yourself</h2>
 				<p>
 					Terug naar Sveltekit en het werken met componenten. Bij het werken met componenten leren
@@ -37,7 +37,7 @@
 				</p>
 				<a href="/sprint16">lees meer</a>
 			</li>
-			<li class="card">
+			<li class="cards__structure">
 				<h2>Sprint 17 - User needs</h2>
 				<p>
 					User needs kijken naar de must have en daar prioriteiten stellen. kijken naar de
@@ -45,7 +45,7 @@
 				</p>
 				<a href="/sprint17">lees meer</a>
 			</li>
-			<li class="card">
+			<li class="cards__structure">
 				<h2>Sprint 18 - Release candidate</h2>
 				<p>Hier leren we hoe we opdrachten kunnen leveren. Documenteren en het overhandigen</p>
 				<a href="/sprint18">lees meer</a>
@@ -55,7 +55,7 @@
 </div>
 
 <style>
-	.cards-section {
+	.cards__section {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -69,11 +69,11 @@
 		}
 	}
 
-	.cards-section h2 {
+	.cards__section h2 {
 		padding: 10px;
 	}
 
-	.cards-container {
+	.cards__container {
 		display: flex;
 		flex-direction: column;
 		gap: 1em;
@@ -89,7 +89,7 @@
 		}
 	}
 
-	.card {
+	.cards__structure {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
