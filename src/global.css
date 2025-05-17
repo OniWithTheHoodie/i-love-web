@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
     --primary-color: #FFDAB3;
     --secondary-color: #C8AAAA;
@@ -6,7 +8,7 @@
     --text-color: #000000;
     --font-familiy: "DecovarAlpha-VF";
     --space-sm: 0.75em;
-    --M-font-size: 16px;
+    --M-font-size: 18px;
     --T-font-size: 18px;
     --D-font-size: 20px;
 }
@@ -39,16 +41,13 @@ body {
 }
 
 main {
-    padding: 10px;
-    font-size: 24px;
     line-height: 1.2;
-
+    font-family: var(--font-familiy);
     @media only screen and (min-width: 960px) {
     margin: auto;
-    /* width: 50%; */
     height: 100vh;
     padding: 10px;
-    font-size: 24px;
+    font-size: var(--T-font-size);
     line-height: 1.2;
     }
 }
@@ -56,4 +55,9 @@ main {
 h1 {
     font-family: 'Rubik Moonrocks';
     color:  var(--text-color);
+    padding: 10px;
+}
+
+h2 {
+    font-weight: bold;
 }

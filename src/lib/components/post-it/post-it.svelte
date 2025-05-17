@@ -1,217 +1,131 @@
 <script>
 </script>
 
-<article class="stack">
-	<h1>Digital Gardening</h1>
-	<p>Welcome to my digital Gardening.</p>
-	<ul class="stack-cards">
-		<li class="stack-cards__item">
-			<article class="stack-cards__article">
-				<h2>Sprint 13</h2>
-				<p>Your tribe for life</p>
+<div class="cards-wrapper">
+	<section class="cards-section">
+		<h2>Post-its</h2>
+		<ul class="cards-container">
+			<li class="card">
+				<h2>Sprint 13 - Your tribe for life</h2>
+				<p>
+					Hier werk ik met een aantal klasgenoten om samen een squadpage te maken. Voor de squadpage
+					maken wij een gezamelijke design dat linked naar onze huidige projectboard werk.
+				</p>
 				<a href="/sprint13">lees meer</a>
-			</article>
-			<figure>
-				<img src="images/code.jpg" width="100" alt="right" />
-			</figure>
-		</li>
-
-		<li class="stack-cards__item">
-			<article class="stack-cards__article">
-				<h2>Sprint 14</h2>
-				<p>Lose your head</p>
+			</li>
+			<li class="card">
+				<h2>Sprint 14 - Lose your head</h2>
+				<p>
+					Dit gaat over onze nieuwe opdracht die wij hebben gekregen waar wij werken met een echte
+					opdrachtgever. Voor het bedrijf Triple maken wij een radiogids
+				</p>
 				<a href="/sprint14">lees meer</a>
-			</article>
-			<figure>
-				<img src="images/code.jpg" width="100" alt="right" />
-			</figure>
-		</li>
-
-		<li class="stack-cards__item">
-			<article class="stack-cards__article">
-				<h2>Sprint 15</h2>
-				<p>Choices, Choices</p>
+			</li>
+			<li class="card">
+				<h2>Sprint 15 - Choices, Choices</h2>
+				<p>
+					Experimenteren met verschillende tech stacks. Lose your head client case opnieuw maken
+					maar met een andere framework. Ik had hiervoor Nuxt.js gekozen
+				</p>
 				<a href="/sprint15">lees meer</a>
-			</article>
-			<figure>
-				<img src="images/code.jpg" width="100" alt="right" />
-			</figure>
-		</li>
-
-		<li class="stack-cards__item">
-			<article class="stack-cards__article">
-				<h2>Sprint 16</h2>
-				<p>Don't repeat yourself</p>
+			</li>
+			<li class="card">
+				<h2>Sprint 16 - Don't repeat yourself</h2>
+				<p>
+					Terug naar Sveltekit en het werken met componenten. Bij het werken met componenten leren
+					wij verschillende manieren van werken met componeten die je kunt afspreken als team.
+				</p>
 				<a href="/sprint16">lees meer</a>
-			</article>
-			<figure>
-				<img src="images/code.jpg" width="100" alt="right" />
-			</figure>
-		</li>
-
-		<li class="stack-cards__item">
-			<article class="stack-cards__article">
-				<h2>Sprint 17</h2>
-				<p>User needs</p>
+			</li>
+			<li class="card">
+				<h2>Sprint 17 - User needs</h2>
+				<p>
+					User needs kijken naar de must have en daar prioriteiten stellen. kijken naar de
+					projectboard en alles in kaart brengen voor de oplevering
+				</p>
 				<a href="/sprint17">lees meer</a>
-			</article>
-			<figure>
-				<img src="images/code.jpg" width="100" alt="right" />
-			</figure>
-		</li>
-
-		<li class="stack-cards__item">
-			<article class="stack-cards__article">
-				<h2>Sprint 18</h2>
-				<p>Release candidate</p>
+			</li>
+			<li class="card">
+				<h2>Sprint 18 - Release candidate</h2>
+				<p>Hier leren we hoe we opdrachten kunnen leveren. Documenteren en het overhandigen</p>
 				<a href="/sprint18">lees meer</a>
-			</article>
-			<figure>
-				<img src="images/code.jpg" width="100" alt="right" />
-			</figure>
-		</li>
-
-		<li class="stack-cards__item">
-			<article class="stack-cards__article">
-				<h2>We love web</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
-				<a href="/WeLoveWeb">lees meer</a>
-			</article>
-			<figure>
-				<img src="images/code.jpg" width="100" alt="right" />
-			</figure>
-		</li>
-	</ul>
-</article>
+			</li>
+		</ul>
+	</section>
+</div>
 
 <style>
-	.stack {
-		/* @media screen and (min-width: 768px) {
-			display: flex;
-			flex-direction: column;
-			align-items: center;	
-		} */
-	}
-
-	article > h1,
-	p {
-		margin-bottom: 0.5em;
-	}
-
-	.stack-cards {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		position: relative;
-		height: 300vh; /* Ensure enough height for scrolling */
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-
-	}
-
-	.stack-cards__item {
-		background-color: white; /* Background color for visibility */
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
-		border-radius: 8px; /* Rounded corners */
-		margin-bottom: 20px; /* Add some space between cards */
-		width: 300px;
-		height: 190px;
-		position: sticky;
-		top: 0;
-		z-index: 1;
-		transition: transform 0.3s ease-out;
+	.cards-section {
 		display: flex;
-		flex-direction: row;
-		container-type: inline-size;
+		flex-direction: column;
+		align-items: center;
+		padding: 1em;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
 
-		@media (min-width: 768px) {
-			width: 500px;
-		}
-
-		& .stack-cards__article {
-			width: 100%;
-			max-height: 200px;
-			padding: 20px;
-		}
-
-		& .stack-cards__article > h2 {
-			font-size: 18px;
-			height: 30px;
-		}
-
-		& .stack-cards__article > p {
-			height: 65px;
-			font-size: var(--M-font-size);
-			
-			@container (min-width: 700px) {
-				font-size: var(--T--font-size);	
-			}
-
-			@container (min-width: 1000px) {
-				font-size: var(--D-font-size);
-			}
-		}
-
-		& .stack-cards__article > a {
-			height: 100px;
-			font-size: 14px;
-			width: auto;
-			height: 24px;
-			border-radius: 5px;
-			background: var(--secondary-color);
-			padding: 10px;
-			color: var(--text-color);
-			text-decoration: none;
-			box-shadow: 2px 2px;
-			transition:
-				transform 1s ease,
-				box-shadow 0.1s ease;
-		}
-
-		& a:hover {
-			background-color: var(--tertiary-color);
-		}
-
-		& a:active {
-			transform: scale(0.95);
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-		}
-
-		& figure {
-			width: 100%;
-			height: 190px;
-			object-fit: cover;
-		}
-
-		& figure > img {
-			height: 100%;
-			width: 100%;
-			border-radius: 0 5px 5px 0;
+		@media (min-width: 480px) {
+			z-index: 1;
+			overflow: visible;
 		}
 	}
 
-	.stack-cards__item:nth-child(1) {
-		z-index: 1;
+	.cards-section h2 {
+		padding: 10px;
 	}
 
-	.stack-cards__item:nth-child(2) {
-		z-index: 2;
+	.cards-container {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+
+		@media (min-width: 480px) {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			margin: 0 auto;
+		}
+
+		@media (min-width: 1080px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
 	}
 
-	.stack-cards__item:nth-child(3) {
-		z-index: 3;
-	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 1.5rem;
+		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+		text-align: center;
+		font-size: var(--M-font-size);
+		background: var(--primary-color);
+		height: 400px;
+		width: 340px;
+		border: 1px solid black;
+		gap: 1em;
+		position: relative;
+		line-height: 1.4;
 
-	.stack-cards__item:nth-child(4) {
-		z-index: 4;
-	}
+		@media (min-width: 480px) {
+			z-index: 2;
+			position: relative;
+			transform: translateY(60px);
+			display: absolute;
+			top: -1.5em;
+			font-size: var(--T-font-size);
+		}
 
-	.stack-cards__item:nth-child(5) {
-		z-index: 5;
-	}
+		@media (min-width: 1080px) {
+			font-size: var(--D-font-size);
+		}
 
-	.stack-cards__item:nth-child(6) {
-		z-index: 6;
+		a {
+			margin-top: auto;
+			border: 1px solid black;
+			padding: 0.5rem;
+		}
+
+		a:hover {
+			background: #f5f5f5;
+		}
 	}
 </style>

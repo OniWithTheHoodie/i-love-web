@@ -1,31 +1,31 @@
-<main>
+<main class="mx-auto max-w-3xl px-4 ">
 	<h1>Sprint 13</h1>
-	<article>
+	<article class="p-6">
 		<h3>2-9-2024</h3>
 		<ol>
 			<li class="bold">
 				Hoe kan ik een goeie leer strategie maken om Sveltekit te kunnen beheersen ?
 			</li>
-			<p>
+			<li>
 				Ik gebruik hier voor de tutorial van Svelte waarbij ik de mogelijkheden binnen svelte
 				uitgeprobeer daarbij probeer ik het ook uit in side projects of de projecten van school.
-			</p>
+			</li>
 			<li class="bold">Hoe kan ik mijn bewijstlast op de juiste manier opleveren ?</li>
-			<p>
+			<li>
 				Het allereerste is in de repo de docs doornemen zodat ik weet wat er verwacht word van de
 				opdracht die ik moet maken. daarbij de DOD volgen en dat afhandelen. Verwerken in de digital
 				gardning.
-			</p>
+			</li>
 			<li class="bold">
 				Hoe kan ik een logische stappenplan maken om complexe interacties te kunnen bouwen ?
 			</li>
-			<p>
+			<li>
 				Ik probeer en test javascript functies om te kijken wat de mogelijkheden zijn en of ik dat
 				kan toepassen in mijn eigen project het zelfde geld voor css waarbij Vasilis zei gewoon iets
 				uitproberen. ook al is het gek waarbij ik probeer te spelen met css transitions, scale etc.
 				Maar het idee is om te kijken. het in mijn eigen project toe te passen dat is iets waar ik
 				nog naar aan het kijken.
-			</p>
+			</li>
 		</ol>
 	</article>
 	<article>
@@ -179,7 +179,7 @@
 	</article>
 
 	<section>
-		<h1>19-9-2024(Profile card)</h1>
+		<h1 class="text-3xl font-bold underline">19-91-2024(Profile card)</h1>
 		<p>Voor de profile card heb ik</p>
 		<video autoplay loop muted>
 			<source src="videos/profilecard/profilecard.mp4" type="video/mp4" />
@@ -190,9 +190,9 @@
 
 <style>
 	img {
-		max-width: 100%;
+		/* max-width: 100%; */
 		/* width: 350px; */
-		height: 600px;
+		/* height: 600px; */
 	}
 
 	.bold {
