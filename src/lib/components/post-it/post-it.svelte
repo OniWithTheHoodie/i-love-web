@@ -122,6 +122,7 @@
 			margin-top: auto;
 			border: 1px solid black;
 			padding: 0.5rem;
+			text-decoration: none;
 		}
 
 		a:hover {

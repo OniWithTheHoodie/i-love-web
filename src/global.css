@@ -2,13 +2,14 @@
 
 :root {
     --primary-color: #FFDAB3;
-    --secondary-color: #C8AAAA;
+    --secondary-color: #C8AAAA; 
     --tertiary-color: #9F8383;
     --neutral-color: #574964;
-    --text-color: #000000;
-    --font-familiy: "DecovarAlpha-VF";
-    --space-sm: 0.75em;
-    --M-font-size: 18px;
+    --text-color: #333333; 
+    --font-family-body: "DecovarAlpha-VF", sans-serif;
+    --font-family-heading: "Rubik Moonrocks", cursive;
+    --space-sm: 0.75em; 
+    --M-font-size: 18px; 
     --T-font-size: 18px;
     --D-font-size: 20px;
 }
@@ -18,7 +19,8 @@
     src: url('/fonts/RubikMoonrocks-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-} 
+    font-display: swap; 
+}
 
 @font-face {
     font-family: 'DecovarAlpha-VF';
@@ -26,38 +28,31 @@
     font-weight: normal;
     font-style: normal;
     font-variation-settings: "BLDA" 114.22, "TRMD" 3.3, "TRMC" 422.71, "SKLD" 249.4, "TRML" 0, "SKLA" 0, "TRMF" 0, "TRMK" 0, "BLDB" 516.3, "WMX2" 382.85, "TRMB" 0, "TRMA" 0, "SKLB" 726.01, "TRMG" 901.05, "TRME" 0;
-} 
-
+    font-display: swap; 
+}
 
 body {
-    /* background-color: var(--background-color-bg); */
-    background-color: #FFDAB3;
-}
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-main {
-    line-height: 1.2;
-    font-family: var(--font-familiy);
-    @media only screen and (min-width: 960px) {
-    margin: auto;
-    height: 100vh;
-    padding: 10px;
-    font-size: var(--T-font-size);
-    line-height: 1.2;
-    }
+    background-color: var(--primary-color); 
+    color: var(--text-color); 
+    font-family: var(--font-family-body); 
 }
 
 h1 {
-    font-family: 'Rubik Moonrocks';
-    color:  var(--text-color);
-    padding: 10px;
+    font-family: var(--font-family-heading); /* Gebruik de variabele */
 }
 
-h2 {
+/* Custom bold class is nog steeds prima als je die specifiek wilt houden */
+.bold {
     font-weight: bold;
+}
+
+
+a {
+    color: var(--neutral-color); 
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out; 
+}
+
+a:hover {
+    color: var(--tertiary-color); 
 }
