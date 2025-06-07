@@ -50,6 +50,25 @@
 				<p>Hier leren we hoe we opdrachten kunnen leveren. Documenteren en het overhandigen</p>
 				<a href="/sprint18">lees meer</a>
 			</li>
+			<li class="cards__structure">
+				<h2>Sprint 19 - Free space</h2>
+				<p>
+					Hier wordt er gewerkt aan de portofolio of ik heb hier de kans om stage te lopen of bij FDND Agency verder te gaan.
+				</p>
+				<a href="/sprint16">lees meer</a>
+			</li>
+			<li class="cards__structure">
+				<h2>Sprint 20 - Final sprint</h2>
+				<p>
+					De laatste sprint waarbij ik werk binnen de FDND Agency ik vertel over het werken aan Oncollaboration het werken met CMD studenten en de oplevering.
+				</p>
+				<a href="/sprint17">lees meer</a>
+			</li>
+			<li class="cards__structure">
+				<h2>We love web</h2>
+				<p>Hier vertel ik over de We love webs die ik heb gevolgd.</p>
+				<a href="/WeLoveWeb">lees meer</a>
+			</li>
 		</ul>
 	</section>
 </div>

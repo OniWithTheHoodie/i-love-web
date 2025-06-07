@@ -30,12 +30,4 @@
             padding: 70px;
         }
 	}
-
-    img {
-        fill: black;
-    }
-
-	img:hover {
-		background: white;
-	}
 </style>

@@ -190,42 +190,6 @@
 	</ul>
 </div>
 
-<div>
-	<ul>
-		<h2>Dion Pieters</h2>
-		<li>
-			Hij heeft zijn afstudeerstage gelopen bij Build in Amsterdam, waar hij vooral E-commerce
-			websites heeft gebouwd. Hij vond dit minder leuk, omdat hij zichzelf als veel creatiever zag.
-		</li>
-		<li>
-			Voor een architectenbedrijf heeft hij een website gemaakt. De designer gaf echter feedback dat
-			het design niet klopte. Dion was het daar niet mee eens omdat hij het zelf had gemaakt. Toen
-			hij goed keek, ontdekte hij dat er een verschil van 2px in het design zat, waarna hij dit
-			heeft aangepast.
-		</li>
-		<li>
-			Hij vond design leuk, maar ontwikkelen vond hij nóg leuker. Daarom besloot hij coole
-			3D-websites te maken met WebGL, waarbij hij werkte voor bedrijven zoals Louis Vuitton, een
-			dönerbedrijf waar je kebab kunt kopen, Spotify, en anderen.
-		</li>
-		<li>
-			Hij vindt dat een designer niet hoeft te kunnen coderen en dat een developer niet per se hoeft
-			te kunnen designen.
-		</li>
-		<li>
-			Voor zijn portfolio heeft hij verschillende designs bekeken en zelfs een designer gevraagd om
-			een portfolio voor hem te maken. Hij was er echter niet blij mee, omdat het niet van hemzelf
-			kwam. Daarom besloot hij uiteindelijk zelf een nieuw design te maken.
-		</li>
-		<li>
-			Hij begon met een simpele en statische website, maar was hier niet tevreden over. Hij vond dat
-			hij meer uit zijn skills moest halen. Daarom voegde hij met WebGL 3D-animaties toe aan zijn
-			websites. Met zijn portfolio, dat vol toffe effecten zit, laat hij nu zien wat zijn skillset
-			is.
-		</li>
-	</ul>
-</div>
-
 <style>
 	div {
 		display: flex;
