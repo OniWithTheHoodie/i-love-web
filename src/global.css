@@ -38,10 +38,9 @@ body {
 }
 
 h1 {
-    font-family: var(--font-family-heading); /* Gebruik de variabele */
+    font-family: var(--font-family-heading); 
 }
 
-/* Custom bold class is nog steeds prima als je die specifiek wilt houden */
 .bold {
     font-weight: bold;
 }

@@ -71,6 +71,7 @@
 
 	.cards__section h2 {
 		padding: 10px;
+		font-family: var(--font-family-heading);
 	}
 
 	.cards__container {
