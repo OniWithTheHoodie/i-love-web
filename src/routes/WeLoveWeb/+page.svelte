@@ -172,5 +172,62 @@
         </ul>
     </article>
 
-    
+    <article class="p-6 mb-12 rounded-lg shadow-lg" style="background-color: var(--secondary-color);">
+        <h2 class="text-2xl font-bold mb-4 text-gray-800" style="color: var(--neutral-color);">Pre CSS day: Sanne</h2>
+        <ul class="list-disc list-inside space-y-3 text-gray-700">
+                <li>
+                    started the Pre CSS day off showed his work about a hamburger menu that he made with the HTML select element with diffrent styling and fun interactions if you hover over it 
+                students had made cool things as well.
+                </li> 
+                <li> microsoft paint made with CSS.</li>
+                <li>a sports car dryiver made with CSS where you see the dashboard the cabels etc. which was a cool CSS design</li>
+                <li> a zapalin css design that you can also interact with by using the up, down, left and right arrow keys to fly the zapalin</li>
+        </ul>
+    </article>
+
+    <article class="p-6 mb-12 rounded-lg shadow-lg" style="background-color: var(--secondary-color);">
+        <h2 class="text-2xl font-bold mb-4 text-gray-800" style="color: var(--neutral-color);">Pre CSS day: Unwrapping Web deisgn by Nils Binder</h2>
+        <ul class="list-disc list-inside space-y-3 text-gray-700">
+                <li>
+                    He works for 9 elements in Germany where he works as a developer. He likes origami paper folding.
+                    Wrapper creates a max width padding and centers the content. there a re Multi wys on how you can make wrappers.
+                </li>
+                <li>But why do we need wrappers ?</li>
+                <li>Because it makes it easier to for layout control, organization, and responsiveness.</li>
+                <li>You can use use wrappers you have 12 grid layout columns. which they use to center the page.</li>
+                <li>You can use grid min to make your grids, calc etc.</li>
+                <li>We had fotshop that came in that allowed us to design website but it got outdated and we also got Figma in 2016 which is good and helped us design the websites that we have been building all year. THen tailwind came out which made developing the pages even easier.</li>
+                <li>you can can use grid to grid to create white-space.</li>
+                <li>He also found something but he wasn't sure what it is and he watched a talk on Kevin powell on css where a grid-template-columns was used to center the content and there where test made with hese grid layouts where content dissapers when the screen size get smaller. </li>
+                <li>figma and tailwind and AI will also give you a simple layout but we also write it out. We should try to experiment making diffrent designs</li>
+        </ul>
+    </article>
+
+    <article class="p-6 mb-12 rounded-lg shadow-lg" style="background-color: var(--secondary-color);">
+        <h2 class="text-2xl font-bold mb-4 text-gray-800" style="color: var(--neutral-color);">Pre CSS day: Miriam suzanne</h2>
+        <ul class="list-disc list-inside space-y-3 text-gray-700">
+                    <ul>
+        <li>Spoke about tech companies that sell AI tech as slop.</li>
+        <li>She specializes in the cascade.</li>
+        <li>She believes the cascade also comes out of a political vision that can change our lives.</li>
+        <li>The cascade was proposed by Håkon Wium Lie in 1994.</li>
+        <li>It wasn't the first proposal and not the only proposal, but it did solve a problem for this platform.</li>
+        <li>Sir Tim Berners-Lee and CERN (the European Organization for Nuclear Research) made the first browser.</li>
+        <li>It was designed to work on the Next machine and only the NeXT machine. It can't be world wide if it only works on my machine.</li>
+        <li>They then released the second browser, which was more powerful than the first one. Because it doesn't have a graphic interface, you don't need to install it on your computer; you can just log in to their server and browse with any device as long as there's an internet connection.</li>
+        <li>You could add numbers like keywords navigate which are links.</li>
+        <li>It became the main statement for the W3C, which was "web formal on everything."</li>
+        <li>It includes devices with different interfaces.</li>
+        <li>Like devices with no screen at all this was planned from the beginning, as they wanted it to be visual and non-visible.</li>
+        <li>But this is a problem if you want HTML to be a common language; it requires no devices with specific markup.</li>
+        <li>You can't ask for certain things from devices.</li>
+        <li>No control over console or color.</li>
+        <li>Tim said on his first website that there will never be web design. That was his vision, so this is a problem: the problem is that we don't have control.</li>
+        <li>When I print a design, I can go on my page, choose my colors and the size that I make it in, and save it. You can come back, change the text, save it, open it, and it still sits there.</li>
+        <li>We can't do anything with the control we have in print. It is a limitation, and we can do more cool things on the web.</li>
+        <li>On the early web, there was styling for user needs where you could set your settings, but it was limited. It was universal, but you couldn't expand the horizon.</li>
+        <li>Then came the img tag by Marc Andreessen, which broke the web, as it didn't make one web across all platforms.</li>
+    </ul>
+        </ul>
+    </article>
 </main>
