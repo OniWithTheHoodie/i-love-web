@@ -137,6 +137,60 @@
     </article>
 
     <article class="p-6 mb-12 rounded-lg shadow-lg" style="background-color: var(--secondary-color);">
+        <h2 class="text-2xl font-bold mb-4 text-gray-800" style="color: var(--neutral-color);">We love web: Dave Bitter</h2>
+        <ul class="list-disc list-inside space-y-3 text-gray-700">
+            <li>Dave Bitter werkt voor IO binnen de Digital Agency.</li>
+            <li>
+                Hij had zijn eerste app gemaakt genaamd Presiarrot, die aan de hand van zijn stem nieuwe
+                kaarten aanmaakt. Zijn stem wordt vertaald naar tekst.
+            </li>
+            <li>In 1950 was het de eerste keer dat voice recognition werd uitgeprobeerd.</li>
+            <li>In 1990 kwam er een programma dat het voor elkaar kreeg.</li>
+            <li>In 2000 maakte Google er een feature van.</li>
+            <li>Nu kun je transcripties genereren.</li>
+            <li>
+                Hij heeft binnen het IO-bedrijf een AI gemaakt, gebaseerd op stem, genaamd Aiva. Hij gebruikt
+                hiervoor een Speech API en maakt ook connectie met ChatGPT AI, die de vragen en antwoorden
+                genereert en vervolgens naar Aiva doorstuurt.
+            </li>
+            <li>
+                Bij het maken van de AI heeft hij problemen gehad met latency. Hij vond een oplossing door
+                alle audio vooraf te fetchen en af te spelen. Terwijl de eerste audio wordt afgespeeld, wordt
+                de tweede audio alvast gefetched en in de wachtrij gezet. Zodra de eerste audio klaar is,
+                volgt de tweede audio, enzovoort. Hierdoor verloopt de voice speech in de Aiva AI vloeiender.
+            </li>
+        </ul>
+    </article>
+
+    <article class="p-6 mb-12 rounded-lg shadow-lg" style="background-color: var(--secondary-color);">
+        <h2 class="text-2xl font-bold mb-4 text-gray-800" style="color: var(--neutral-color);">We love web: Kalok Yeung</h2>
+        <ul class="list-disc list-inside space-y-3 text-gray-700">
+            <li>
+                <strong>Emotional interface </strong>  
+                Dit gaat over hoe je verbinding maakt met de gebruiker.
+                Kalok Yeung is een ontwerper en werkt met developers.
+            </li>
+            <li>
+                Hij liet zijn werk zien dat qua design echt mooi is opgemaakt.
+            </li>
+            <li>
+                <strong>Soft UI:</strong>Design gebaseerd op soft UI waar effecten subtiel zijn niet heftig maar de design is nog steeds strak.
+            </li>
+            <li>
+                <strong>Motion:</strong>Design gebaseerd op motion waar scrollen objecten animeren.
+            </li>
+            <li>
+                <strong>Sound:</strong> Waar de webpagina tijdens interacties zoals met een navigatie van een lijst geluid maakt. Hij gaf ook aan dat geluid irritant kan zijn
+                Dus heeft hij hier ook over nagedacht om geluid uit te kiezen dat niet irritant is. 
+            </li>
+            <li>
+                <strong>Content:</strong> Kunnen binden met de gebruiker doormiddel van content. Onderzoek doen naar wat de gebruiker als eerste bekijkt als die gebruikt maakt van een pagina.
+                Om zo zijn ideeën te realiseren.
+            </li>
+        </ul>
+    </article>
+
+    <article class="p-6 mb-12 rounded-lg shadow-lg" style="background-color: var(--secondary-color);">
         <h2 class="text-2xl font-bold mb-4 text-gray-800" style="color: var(--neutral-color);">Dion Pieters</h2>
         <ul class="list-disc list-inside space-y-3 text-gray-700">
             <li>
